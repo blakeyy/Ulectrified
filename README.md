@@ -1,4 +1,4 @@
-# Ulectrified - A mobile app for trading renewable surplus energy.
+# Ulectrified - A mobile app for trading renewable surplus energy
 
 This App is built to enable private renewable energy producers to offer their renewable surplus energy in an easy way and at a fair price. EV users can find this offers via this app and buy the offered energy. If the buyer books the offer, he charges the energy at the producers place.
 
@@ -60,7 +60,7 @@ First you need to set up the database collections. This includes adding properti
     3. Add "booked" flag to know if the offer is still available
  
   - Payment Methods:
-    1. Add "Name"
+    1. Add "Name" variable
     2. Create desired payment mehtods records
 
 ### 2. Create Screens and connect them to each other
@@ -94,12 +94,7 @@ Price info window: <br />
 - Scoring list <br />
 ![image](https://user-images.githubusercontent.com/53949039/177574710-6758336b-2a70-4052-93f7-5e1986b97837.png) <br />
 - Buyer profile <br />
-![image](https://user-images.githubusercontent.com/53949039/177579784-5734e673-57ce-411e-8653-7869ae262dca.png)
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/53949039/177608977-2155dfb0-c67a-4649-be33-cd946be208dd.png) <br />
 
 
 ## Sources:
