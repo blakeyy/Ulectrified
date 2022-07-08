@@ -10,7 +10,7 @@ The Adalo repository can be cloned here: https://previewer.adalo.com/15754726-98
 
 ### Miro (https://miro.com/):
 
-- Collaborative work on the blueprint of the app and description of the desired functions.
+- Collaborative work on the blueprint of the app and description of the desired functions
 
 ### Adalo (https://www.adalo.com/): 
 
@@ -18,11 +18,13 @@ The Adalo repository can be cloned here: https://previewer.adalo.com/15754726-98
 - Drag-&-Drop to add screens and components
 - Prebuilt screens (e.g. Navigation Screens, Info Screens, List Screens, etc.)
 - Prebuilt components (e.g. Text, Buttons, Forms, Input fields, etc.)
-- Add actions to screens or components
 - Integrated Database to store app data
-- Consists of Database Collections (e.g. Users, Energy offers, etc.) which store records (e.g. a User or an Energy Offer). 
-- Each Database Collection has its own properties like Name (Text), Profile Picture (Image), Price (Number) or Relationships (e.g. each Energy offer has a user/seller and possibly a user/buyer)
-- By using actions in the screens or components either new records can be created or existing records can be updated
+    - Consists of Database Collections (e.g. Users, Energy offers, etc.) which store records (e.g. a User or an Energy Offer)
+    - Each Database Collection has its own properties like Name (Text), Profile Picture (Image), Price (Number) or Relationships (e.g. each Energy offer has a user/seller and possibly a user/buyer)
+- Add actions to screens or components
+    - Link to other screens
+    - Create new records or update existing ones
+    - Conditions (e.g. perform action only if certain values are fulfilled)
 - API integrations (e.g. Google Maps API)
 - Apps can be made available in the Apple Store and the Google Play Store
 
@@ -35,9 +37,11 @@ The Adalo repository can be cloned here: https://previewer.adalo.com/15754726-98
 ## Step-by-step guide
 
 ### Create blueprint via Miro
-As a first step we created the basic structure of our app in Miro and wrote down the features we want to include. The image below shows the blueprint of the app. The ![#f03c15](https://via.placeholder.com/15/f03c15/f03c15.png) 
+As a first step we created the basic structure of our app in Miro and wrote down the features we want to include. The image below shows the blueprint of the app. 
 
 <img width="597" alt="app_structure" src="https://user-images.githubusercontent.com/53949039/177563295-df998f85-fe06-445d-9ccc-9057e1b7ce57.png">
+
+- ![#f03c15](https://via.placeholder.com/15/f03c15/f03c15.png): Future feature (not implemented yet)
 
 ### Implement protoype in Adalo
 
@@ -71,11 +75,13 @@ First you need to set up the database collections. This includes adding properti
 This section briefly describes how the screens are connected and what they do. Also the actions that need to be implemented are described.
 
 #### *Registration & Login:* <br />
-From the welcome you can get either to the registration or the login screen. <br />
+From the **Welcome** screen you can get either to the Registration or the Login (Link at the "Create new account" and "Log in" button respectively). In the **Registration** screen the credentials for a new account are filled into the form fields. The "Sign up" button creates a new user with the respective credentials and links to the Login screen. If the button "I already have an account" is clicked, you get directly linked to the Login screen. In the **Login** screen the login data can be inserted. By pressing "Log in" the user is logged in and moves to the Transition screen which is described in the [next section](#distinguish-between-seller--buyer-account).
+The "No account? Sign up" button can be pressed to get back to **Registration** screen. <br />
 ![image](https://user-images.githubusercontent.com/53949039/177569553-e064694e-76b3-495e-95fd-39c3d7c21f57.png) <br />
 
-#### *Distinguish between seller & buyer account:* <br />
-After logging in the transition screen helps to distinguish between seller and buyer. If the logged in user is a buyer, he is guided to the Buyer Homepage (upper screen) otherwise (he is a seller) he is guided to the seller homepage (lower screen).
+#### *Distinguish between seller & buyer account:* 
+
+After logging in the Transition screen helps to distinguish between seller and buyer. If the logged in user is a buyer, he is moved to the Buyer Homepage (upper screen) otherwise (he is a seller) he is moved to the seller homepage (lower screen).
 ![image](https://user-images.githubusercontent.com/53949039/177571500-d8ae0e75-b362-497c-a081-b4feb735ee65.png) <br />
 
 #### *Seller Part:*
