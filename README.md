@@ -2,6 +2,8 @@
 
 This App is built to enable private renewable energy producers to offer their renewable surplus energy in an easy way and at a fair price. EV users can find this offers via this app and buy the offered energy. If the buyer books the offer, he charges the energy at the producers place.
 
+## Repository
+
 The Adalo repository can be cloned here: https://previewer.adalo.com/15754726-98e4-4b55-9ded-28c1788137c8 
 
 ## Tools & Frameworks used for this project
@@ -32,7 +34,8 @@ The Adalo repository can be cloned here: https://previewer.adalo.com/15754726-98
 
 ## Step-by-step guide
 
-### Create blueprint
+### Create blueprint via Miro
+As a first step we created the basic structure of our app in Miro and wrote down the features we want to include. The image below shows the blueprint of the app. The ![#f03c15](https://via.placeholder.com/15/f03c15/f03c15.png) 
 
 <img width="597" alt="app_structure" src="https://user-images.githubusercontent.com/53949039/177563295-df998f85-fe06-445d-9ccc-9057e1b7ce57.png">
 
@@ -52,7 +55,7 @@ First you need to set up the database collections. This includes adding properti
   - Roles:
     1. Add "ID" and "Type" variables
     2. Create two role types (seller and buyer)
-    3. Relationship to Users
+    3. Add Relationship property to Users
 
   - Energy Offers:
     1. Add properties like "ID", "street", "postal code", "start time", "end time", "amount of energy", etc.
@@ -67,14 +70,15 @@ First you need to set up the database collections. This includes adding properti
 
 This section briefly describes how the screens are connected and what they do. Also the actions that need to be implemented are described.
 
-*Registration & Login:* <br />
-    From the welcome you can get either to the registration or the login screen. <br />
-    ![image](https://user-images.githubusercontent.com/53949039/177569553-e064694e-76b3-495e-95fd-39c3d7c21f57.png) <br />
+#### *Registration & Login:* <br />
+From the welcome you can get either to the registration or the login screen. <br />
+![image](https://user-images.githubusercontent.com/53949039/177569553-e064694e-76b3-495e-95fd-39c3d7c21f57.png) <br />
 
-*Distinguish between seller & buyer account:* <br />
+#### *Distinguish between seller & buyer account:* <br />
+After logging in the transition screen helps to distinguish between seller and buyer. If the logged in user is a buyer, he is guided to the Buyer Homepage (upper screen) otherwise (he is a seller) he is guided to the seller homepage (lower screen).
 ![image](https://user-images.githubusercontent.com/53949039/177571500-d8ae0e75-b362-497c-a081-b4feb735ee65.png) <br />
 
-*Seller Part:*
+#### *Seller Part:*
 
 - Open/Booked offers <br />
 ![image](https://user-images.githubusercontent.com/53949039/177573913-349d563b-1981-4b55-80b5-00ce5114567b.png) <br />
@@ -85,7 +89,7 @@ Price info window: <br />
 - Seller Profile <br />
 ![image](https://user-images.githubusercontent.com/53949039/177580238-d45ef34e-7f11-4f5d-9be5-94e213c1c77f.png) <br />
 
-*Buyer Part:*
+#### *Buyer Part:*
 
 - Availability map <br />
 ![image](https://user-images.githubusercontent.com/53949039/177575467-bd273d74-cd30-4192-a0cd-a5f33c5b2c89.png) <br />
