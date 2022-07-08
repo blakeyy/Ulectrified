@@ -74,38 +74,63 @@ First you need to set up the database collections. This includes adding properti
 
 This section briefly describes how the screens are connected and what they do. Also the actions that need to be implemented are described.
 
-#### *Registration & Login:* <br />
-From the **Welcome** screen you can get either to the Registration or the Login (Link at the "Create new account" and "Log in" button respectively). In the **Registration** screen the credentials for a new account are filled into the form fields. The "Sign up" button creates a new user with the respective credentials and links to the Login screen. If the button "I already have an account" is clicked, you get directly linked to the Login screen. In the **Login** screen the login data can be inserted. By pressing "Log in" the user is logged in and moves to the Transition screen which is described in the [next section](#distinguish-between-seller--buyer-account).
+#### *A. Registration & Login:* <br />
+From the **Welcome** screen you can get either to the Registration or the Login (Link at the "Create new account" and "Log in" button respectively). In the **Registration** screen the credentials for a new account are filled into the form fields. The "Sign up" button creates a new user with the respective credentials and links to the Login screen. If the button "I already have an account" is clicked, you get directly linked to the Login screen. In the **Login** screen the login data can be inserted. By pressing "Log in" the user is logged in and moves to the Transition screen which is described in the [next section](#b-distinguish-between-seller--buyer-account).
 The "No account? Sign up" button can be pressed to get back to **Registration** screen. <br />
 ![image](https://user-images.githubusercontent.com/53949039/177569553-e064694e-76b3-495e-95fd-39c3d7c21f57.png) <br />
 
-#### *Distinguish between seller & buyer account:* 
+#### *B. Distinguish between seller & buyer account:* 
 
-After logging in the Transition screen helps to distinguish between seller and buyer. If the logged in user is a buyer, he is moved to the Buyer Homepage (upper screen) otherwise (he is a seller) he is moved to the seller homepage (lower screen).
+After logging in the **Transition** screen helps to distinguish between seller and buyer. If the logged in user is a buyer, he gets to the [Buyer Homepage](#e-buyer-perspective) (upper screen) otherwise (he is a seller) he gets to the [Seller homepage](#d-seller-perspective) (lower screen).
 ![image](https://user-images.githubusercontent.com/53949039/177571500-d8ae0e75-b362-497c-a081-b4feb735ee65.png) <br />
 
-#### *Seller Part:*
+#### *C. Navigation bar*
+The **Navigation bar** is almost the same for both seller & buyer. By clicking left icon (["Map"](#e-buyer-perspective) or ["Home"](#d-seller-perspective)) it directs you to the respective homescreen. "Invoices" is not impemented yet. "My Score" is only implemented for the buyer yet. It directs you to the [Scoring list](#e-buyer-perspective). "Profile" links to respective profile of the user ([Seller profie](#d-seller-perspective) or [Buyer profile](#e-buyer-perspective)). "More" opens the field shown below which includes a "Logout" button. By pressing it the user gets logged out and directed to the [Login screen](#a-registration--login).
+- Seller: 
 
-- Open/Booked offers <br />
+![image](https://user-images.githubusercontent.com/53949039/177968930-d0800fd2-4b84-42b9-94ba-58423f515ec9.png)
+
+- Buyer:
+
+![image](https://user-images.githubusercontent.com/53949039/177967955-3f0d206c-ed1d-4c70-bdff-780a9c338227.png)
+
+- Logout:
+
+![image](https://user-images.githubusercontent.com/53949039/177979725-8cd81d75-d424-45dd-b178-8036629468f3.png)
+
+
+#### *D. Seller Perspective:*
+
+This section describes the structure of the app on the seller's side.
+
+- ### Open/Booked offers <br />
+If you logged in as a seller, you get directed to the **Seller Homepage** showing a list with open offers (see left image below). The list shows all energy offers of the seller which aren't booked yet (energy offers associated with current user/seller && booked flag == 0). The **Seller Homepage 2** (see right image) shows all booked offers of the current seller (booked flag == 1). By pressing the rectangles on the top ("Open offers" and "Booked offers") the user gets directed to the respective screen. The search bar can be used to filter for entries in the respective list.
 ![image](https://user-images.githubusercontent.com/53949039/177573913-349d563b-1981-4b55-80b5-00ce5114567b.png) <br />
-- Create new energy offer <br />
+
+- ### Create new energy offer <br />
 ![image](https://user-images.githubusercontent.com/53949039/177583874-ed1c2e46-6dec-43aa-85fe-600adb59833d.png) <br />
-Price info window: <br />
+
+- ### Price info window: <br />
 ![image](https://user-images.githubusercontent.com/53949039/177584555-1f6bfccd-46d0-4699-8933-47681255a9b2.png) <br /> 
-- Seller Profile <br />
+
+- ### Seller Profile <br />
 ![image](https://user-images.githubusercontent.com/53949039/177580238-d45ef34e-7f11-4f5d-9be5-94e213c1c77f.png) <br />
 
-#### *Buyer Part:*
+#### *E. Buyer Perspective:*
 
-- Availability map <br />
+This section describes the structure of the app on the buyer's side.
+
+- ### Availability map <br />
 ![image](https://user-images.githubusercontent.com/53949039/177575467-bd273d74-cd30-4192-a0cd-a5f33c5b2c89.png) <br />
-- Book offer <br />
+
+- ### Book offer <br />
 ![image](https://user-images.githubusercontent.com/53949039/177584339-3bcc913c-b991-4d09-b038-ae7933dfa717.png) <br />
-- Scoring list <br />
+
+- ### Scoring list <br />
 ![image](https://user-images.githubusercontent.com/53949039/177574710-6758336b-2a70-4052-93f7-5e1986b97837.png) <br />
-- Buyer profile <br />
+
+- ### Buyer profile <br /> 
 ![image](https://user-images.githubusercontent.com/53949039/177608977-2155dfb0-c67a-4649-be33-cd946be208dd.png) <br />
 
 
-## Sources:
-https://www.nocode.tech/lessons/adalo-overview
+
