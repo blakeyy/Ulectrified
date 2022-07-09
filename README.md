@@ -4,7 +4,7 @@ This App is built to enable private renewable energy producers to offer their re
 
 ## Repository
 
-The Adalo repository can be cloned here: https://previewer.adalo.com/15754726-98e4-4b55-9ded-28c1788137c8 
+The Adalo repository can be cloned here: https://previewer.adalo.com/b9e550ab-4a6a-40ac-a41d-a261036a0efa
 
 ## Tools & Frameworks used for this project
 
