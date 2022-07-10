@@ -1,10 +1,10 @@
 # Ulectrified - A mobile app for trading renewable energy surplus
 
-This App is built to enable private renewable energy producers to offer their renewable energy surplus in an easy way and at a fair price. Electric vehicle users can find this offers via this app and buy the offered energy. If the buyer books the offer, he charges the energy at the producers place.
+This app is built to enable private renewable energy producers to offer their renewable energy surplus in an easy way and at a fair price. Electric vehicle users can find the offers via this app and buy the offered energy. If the buyer books the offer, he charges the energy at the producers place.
 
 ## Repository
 
-The Adalo repository can be cloned here: https://previewer.adalo.com/b9e550ab-4a6a-40ac-a41d-a261036a0efa
+The app was built with Adalo. The repository can be cloned here: https://previewer.adalo.com/b9e550ab-4a6a-40ac-a41d-a261036a0efa
 
 ## Tools & frameworks used for this project
 
