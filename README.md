@@ -30,9 +30,9 @@ The app was built with Adalo. The repository can be cloned here: https://preview
 
 ### Google Maps API (https://developers.google.com/maps):
     
-- Provides a Map where current location and other location pointers can be placed
+- Provides a map where current location and other location pointers can be placed
 - Filtering for locations
-- Info Windows for pointers
+- Info windows for pointers
 
 ## Step-by-step guide
 
@@ -42,12 +42,13 @@ As a first step we created the basic structure of our app in Miro and wrote down
 <img width="597" alt="app_structure" src="https://user-images.githubusercontent.com/53949039/177563295-df998f85-fe06-445d-9ccc-9057e1b7ce57.png">
 
 - ![#f03c15](https://via.placeholder.com/15/f03c15/f03c15.png): Future feature (not implemented yet)
+- The screens connected by the dashed lines appear only when the user logs in for the first time
 
 ### Implement protoype in Adalo
 
 ### 1. Set up database collections
 
-First you need to set up the database collections. This includes adding properties to each collection and also initialize some collections (e.g. payment methods or roles). 
+First you need to set up the database collections. This includes adding properties to each collection and also initializing some collections (e.g. payment methods or roles). 
 The following database collections are used for this app:
   
   - Users: 
@@ -81,7 +82,7 @@ This section describes how the screens are connected and what they do. Also the 
 
 ### *A. Registration & Login:* 
 
-From the **Welcome** screen you can get either to the **Registration** screen or the **Login** screen (Link at the "Create new account" and "Log in" button respectively). In the **Registration** screen the credentials for a new account are filled into the form fields. The "Sign up" button creates a new user with the respective credentials and links to the **Login** screen. If the button "I already have an account" is clicked, you get directly linked to the **Login** screen. In the **Login** screen the login data can be inserted. By pressing "Log in" the user is logged in and moves to the **Transition screen** which is described in the [next section](#b-distinguish-between-seller-buyer-account). The "No account? Sign up" button can be pressed to get back to **Registration** screen. <br />
+From the **Welcome** screen you can get either to the **Registration** screen or the **Login** screen (Link at the "Create new account" and "Log in" button respectively). In the **Registration** screen the credentials for a new account are filled into the form fields. The "Sign up" button creates a new user with the respective credentials and links to the **Login** screen. If the button "I already have an account" is clicked, you get directly linked to the **Login** screen. In the **Login** screen the login data can be inserted. By pressing "Log in" the user is logged in and moves to the **Transition screen** which is described in the [next section](#b-distinguish-between-seller--buyer-account). The "No account? Sign up" button can be pressed to get back to **Registration** screen. <br />
 ![image](https://user-images.githubusercontent.com/53949039/177569553-e064694e-76b3-495e-95fd-39c3d7c21f57.png)
 <br />
 
@@ -98,7 +99,7 @@ The **Navigation bar** is almost the same for both seller & buyer.
 - "Invoices" is not impemented yet.
 - "My Score" directs you to the [Scoring list](#e-buyer-perspective) (only implemented for the buyer yet). 
 - "Profile" links to respective profile of the user ([Seller profile](#d-seller-perspective) or [Buyer profile](#e-buyer-perspective)).
-- "More" opens the field shown below which includes a "Logout" button. By pressing it the user gets logged out and directed to the [Login screen](#a-registration-login).
+- "More" opens the field shown below which includes a "Logout" button. By pressing it the user gets logged out and directed to the [Login screen](#a-registration--login).
 
     - Seller: <br />
     ![image](https://user-images.githubusercontent.com/53949039/177968930-d0800fd2-4b84-42b9-94ba-58423f515ec9.png)
