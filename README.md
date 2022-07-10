@@ -131,7 +131,7 @@ This screen overlays a small window over the previous screen and shows an inform
 ![image](https://user-images.githubusercontent.com/53949039/177584555-1f6bfccd-46d0-4699-8933-47681255a9b2.png) <br /> 
 
 - ### Seller profile 
-The **Seller profile** includes a "circular progress bar" component which visually shows how much energy has to be sold the get to the next level. Below the diagram there are some text fields that include custom formulas to calculate for example the level of the user or the amount of energy sold. It also shows the name, email and credit balance of the user. This data comes from the record of the respective user. 
+The **Seller profile** includes a "circular progress bar" component which visually shows how much energy has to be sold to get to the next level. Below the diagram there are some text fields that include custom formulas to calculate for example the level of the user or the amount of energy sold. It also shows the name, email and credit balance of the user. This data comes from the record of the respective user. 
 
 ![image](https://user-images.githubusercontent.com/53949039/177580238-d45ef34e-7f11-4f5d-9be5-94e213c1c77f.png) <br />
 
@@ -160,13 +160,13 @@ The **Scoring list** screens include a navigation bar on the top where you can s
 ![image](https://user-images.githubusercontent.com/53949039/177574710-6758336b-2a70-4052-93f7-5e1986b97837.png) <br />
 
 - ### Buyer profile <br /> 
-The **Buyer profile** (left) includes a "circular progress bar" component which visually shows how much energy has to be bought to get to the next level. Below the diagram there are some text fields that include custom formulas to calculate for example the level of the user or the saved amount of CO2 in kg. It also shows the name, email and username. If the avatar icon in upper right corner is clicked, the screen on the right hand side opens. Here an image can be uploaded which is then stored in the record of the user and shows up in the [Scoring list](#scoring-list).
+The **Buyer profile** (left) includes a "circular progress bar" component which visually shows how much energy has to be bought to get to the next level. Below the diagram there are some text fields that include custom formulas to calculate for example the level of the user or the saved amount of CO2 in kg. It also shows the name, email and username. If the avatar icon in the upper right corner is clicked, the screen on the right hand side opens. Here an image can be uploaded which is then stored in the record of the user and shows up in the [Scoring list](#scoring-list).
 
 ![image](https://user-images.githubusercontent.com/53949039/177608977-2155dfb0-c67a-4649-be33-cd946be208dd.png) <br />
 
 ## Final remarks
 
-This project was done by our group **Ulectrified** for the TechChallenge SS2022 @ TUM. The app is only a prototype and isn't finished yet. However, it implements several features and showcases our idea.
+This project was done by our group **Ulectrified** for the TechChallenge SS2022 @ TUM. The app is only a prototype and isn't finished yet. However, it contains several features and showcases our idea.
 
 Credits:
 - Anna Nikolaichuk ([anna.nikolaichuk@tum.de](anna.nikolaichuk@tum.de))
