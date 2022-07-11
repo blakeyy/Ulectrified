@@ -167,6 +167,8 @@ The **Buyer profile** (left) includes a "circular progress bar" component which 
 
 ## Future features
 
+In order to further improve the functionality & user experience of our app, we plan to implement the following features in the future:  
+
 - Guide/tutorial how to use and set up the account (appearing when logging in for the first time)
 - Verification of the users
 - Rating of sellers and buyers
